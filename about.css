@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  box-sizing: border-box;
+}
+
+#logo img {
+  float: left;
+  width: 60px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.login-page {
+  background: whitesmoke;
+}
+
+#active {
+  color: aqua;
+}
+.top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(index-page-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.nav {
+  float: right;
+  font-size: 21px;
+  margin-right: 20px;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 0px 6px;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li:hover {
+  color: aqua;
+}
+
+.title {
+  color: #fff;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+}
+
+.about-us {
+  float: left;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-top: 50px;
+  max-width: 1200px;
+}
+
+.sub-topic-1 {
+  color: rgb(109, 5, 5);
+  font-size: 40px;
+  border-bottom: 1.5px solid rgb(109, 5, 5);
+  width: 200px;
+  min-width: 16px;
+}
+
+.para-1 {
+  margin-top: 15px;
+  font-size: 20px;
+  inline-size: 800px;
+  color: rgb(55, 53, 53);
+  line-height: 25px;
+  margin-bottom: 30px;
+  max-width: 80rem;
+}
+
+.trust {
+  width: 350px;
+  height: auto;
+  float: right;
+  top: 60%;
+  position: absolute;
+  right: 5%;
+  margin-right: auto;
+}
+
+.delivery {
+  float: right;
+  text-decoration: none;
+  margin-right: 40px;
+  margin-top: 50px;
+  max-width: 1000px;
+}
+
+.sub-topic-2 {
+  color: rgb(109, 5, 5);
+  font-size: 40px;
+  border-bottom: 1.5px solid rgb(109, 5, 5);
+  width: 298px;
+  min-width: 16px;
+}
+
+.para-2 {
+  margin-top: 15px;
+  width: 800px !important;
+  font-size: 20px;
+  inline-size: 1000px;
+  color: rgb(55, 53, 53);
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+
+.truck {
+  width: 250px;
+  height: auto;
+  float: left;
+  top: 110% !important;
+  position: absolute;
+  left: 5%;
+  margin-left: auto;
+}
+
+.cost {
+  float: left;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-top: 50px;
+  max-width: 1000px;
+}
+
+.sub-topic-3 {
+  color: rgb(109, 5, 5);
+  font-size: 40px;
+  border-bottom: 1.5px solid rgb(109, 5, 5);
+  width: 563px;
+  min-width: 16px;
+}
+
+.para-3 {
+  margin-top: 15px;
+  width: 800px !important;
+  font-size: 20px;
+  inline-size: 1000px;
+  color: rgb(55, 53, 53);
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.money {
+  width: 260px;
+  height: auto;
+  float: right;
+  top: 152%;
+  position: absolute;
+  right: 8%;
+  margin-right: auto;
+}
+
+.map {
+  float: right;
+  text-decoration: none;
+  margin-right: 40px;
+  margin-top: 50px;
+  max-width: 1000px;
+}
+
+.sub-topic-4 {
+  color: rgb(109, 5, 5);
+  font-size: 40px;
+  border-bottom: 1.5px solid rgb(109, 5, 5);
+  width: 285px;
+  min-width: 16px;
+}
+
+.para-4 {
+  margin-top: 15px;
+  width: 800px !important;
+  font-size: 20px;
+  inline-size: 1000px;
+  color: rgb(55, 53, 53);
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+
+.tracking {
+  width: 200px;
+  height: auto;
+  float: left;
+  top: 186%;
+  margin-top:35px ;
+  position: absolute;
+  left: 12%;
+  margin-left: auto;
+}
+
+.payment {
+  float: left;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-top: 50px;
+  max-width: 1000px;
+}
+
+.sub-topic-5 {
+  color: rgb(109, 5, 5);
+  font-size: 40px;
+  border-bottom: 1.5px solid rgb(109, 5, 5);
+  width: 545px;
+  min-width: 16px;
+}
+
+.para-5 {
+  margin-top: 15px;
+  width: 800px !important;
+  font-size: 20px;
+  inline-size: 1000px;
+  color: rgb(55, 53, 53);
+  line-height: 25px;
+  margin-bottom: 100px; /* Should be styled in the last sub-topic*/
+}
+
+.payment-pic {
+  width: 310px;
+  height: auto;
+  float: right;
+  top: 224%;
+  position: absolute;
+  right: 8%;
+  margin-right: auto;
+  margin-top:30px;
+}

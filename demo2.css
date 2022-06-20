@@ -1,0 +1,81 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+#logo img {
+  float: left;
+  width: 60px;
+  height: auto;
+}
+.login-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(login-page-photo.jpg);
+  height: 94vh;
+  background-size: cover;
+  max-width: 1200px;
+  margin: 20px;
+}
+.login-box {
+  width: 270px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+}
+.login-box h1 {
+  float: left;
+  font-size: 40px;
+  border-bottom: 5px solid rgb(109, 5, 5);
+  margin-bottom: 35px;
+  padding: 5px 0;
+}
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.textbox i {
+  float: left;
+  width: 26px;
+  text-align: center;
+}
+.textbox input {
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  width: 200px;
+  float: left;
+  margin: 0 5px;
+}
+#sign-in-btn {
+  width: 100px;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border-radius: 30px;
+  margin-left: 85px;
+}
+#sign-in-btn:hover {
+  background: rgb(109, 5, 5);
+  color: antiquewhite;
+}
+.no-account {
+  margin-top: 30px;
+  text-align: center;
+}
+.no-account a {
+  color: antiquewhite;
+}

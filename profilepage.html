@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>E-Wet Mart - Profile</title>
+    <meta name="robots" content="index,follow">
+    <meta name="Description" content="A single place to connect with local producers of veggies, fruits, meat and fisheries.">
+    <link rel="stylesheet" href="profilepage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="login-page">
+    <div class="top">
+        <div id="logo">
+          <a href="index2.html"><img src="art_eatlogos_design_for_pink.png"></a>
+            
+        </div> 
+    
+        <div class="nav">
+            <ul>
+                <a href="index2.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="#"><li>List Items</li></a>
+                <a href="#"><li>News</li></a>
+                <a href="#"><li>Contact Us</li></a>
+            </ul>
+        </div>
+        <h1 class="title">E-WET MART</h1>
+    </div>
+<div id="content">
+    <div class="prof">
+        <div class="pic">
+            <img src="http://www.arcticcoolingservices.com/wp-content/uploads/2018/02/profile-holder.jpg" alternate="profile-holder">
+        </div>
+        <div class="details">
+            <p><b>Name: </b> Marilyn Monroe</p>
+            <br>
+            <p><b>Address: </b> 5/1082, H4, Some Street, Chennai</p>
+            <br>
+            <p><b>Contact: </b> 9384435111 , 8072011419</p>
+            <br>
+            <p><b>Category: </b> Vegetable / Fruit Cultivator</p>
+            <br>
+            <p><b>Rating: </b> ⭐⭐⭐⭐</p>
+            <br>
+            <button class="review-btn"><b>Reviews </b></button>           
+            <div id="buy">
+                <a href="tel:9384435111"><button class="buy-btn-1">Contact Them</button></a>
+
+            </div>
+        </div>
+        </div>
+       
+        <div class="products">
+            <table class="tablee">
+                <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>ITEMS</th>
+                    <th>RATE/KG</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="product">
+                    <td>1</td>
+                    <td>Tomato</td>
+                    <td>$5.99</td>
+                    <td><button class="add cart1" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                <tr class="product">
+                    <td>2</td>
+                    <td>Broccoli</td>
+                    <td>$2.99</td>
+                    <td><button class="add cart2" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                <tr class="product">
+                    <td>3</td>
+                    <td>Capsicum</td>
+                    <td>$4.59</td>
+                    <td><button class="add cart3" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                <tr class="product">
+                    <td>4</td>
+                    <td>Carrot</td>
+                    <td>$3.99</td>
+                    <td><button class="add cart4" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                <tr class="product">
+                    <td>5</td>
+                    <td>Onion</td>
+                    <td>$5.99</td>
+                    <td><button class="add cart5" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                <tr class="product">
+                    <td>6</td>
+                    <td>Spinach</td>
+                    <td>$1.99</td>
+                    <td><button class="add cart6" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                <tr class="product">
+                    <td>7</td>
+                    <td>Raddish</td>
+                    <td>$0.99</td>
+                    <td><button class="add cart7" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                <tr class="product">
+                    <td>8</td>
+                    <td>Bell Pepper</td>
+                    <td>$5.49</td>
+                    <td><button class="add cart8" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                <tr class="product">
+                    <td>9</td>
+                    <td>Beetroot</td>
+                    <td>$6.99</td>
+                    <td><button class="add cart9" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                <tr class="product">
+                    <td>10</td>
+                    <td>Potato</td>
+                    <td>$5.99</td>
+                    <td><button class="add cart10" onclick="cartNumbers(this)">Add</button></td>
+                </tr>
+                
+            </tbody>
+            </table>
+        </div>
+        <div class="proceed">
+            <a href="#cart"><button><span>Proceed</span></button></a>
+        </div>    
+        <div id="cart">
+            <h2>Cart</h2>
+        <table id="cartt">
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>ITEMS</th>
+                    <th>RATE/KG</th>
+                </tr>
+            </thead>    
+        
+        </table>
+
+        <div class="to-payment">
+            <button class="pay" onclick="to_payment()">Proceed to Payment</button>
+        </div>
+
+        </div>
+    
+       
+    
+</div>
+<script src="profilepage.js"></script>    
+    </body>
+    </html>

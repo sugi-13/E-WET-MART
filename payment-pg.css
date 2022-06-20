@@ -1,0 +1,180 @@
+body {
+  font-family: Century Gothic;
+  font-size: 10px;
+  padding: 8px;
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: -10px;
+}
+h3 {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  border-color: red;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 3px 18px 13px 18px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 0 0 2rem 0 rgba(168, 180, 194, 0.37);
+  font-family: Century Gothic;
+  margin-bottom: 50px;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid rgb(109, 5, 5);
+  border-radius: 1px;
+  font-family: Century Gothic;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-family: Century Gothic;
+    font-size: 15px;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 20px;
+}
+
+.tablinks-active {
+  background: rgb(109, 5, 5);
+  border: 1px solid rgb(109, 5, 5);
+  padding: 5px 8px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.tablinks {
+  background: none;
+  border: 1px solid rgb(109, 5, 5);
+  padding: 5px 8px;
+  border-radius: 10px;
+}
+
+.tablinks:hover {
+  background: rgb(109, 5, 5);
+  color: #ffffff;
+  cursor: pointer;
+}
+.tablinks-active:hover {
+  background: rgb(109, 5, 5);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #01baef;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 1rem 0 rgba(99, 123, 150, 0.329);
+  font-family: Century Gothic;
+}
+
+.btn:hover {
+  background-color: #0cbaba;
+}
+
+a {
+  color: #2196f3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.qty {
+  margin-left: 54px;
+}
+
+.qty-no-1 {
+  margin-left: 44px;
+}
+
+.qty-no-2 {
+  margin-left: 44px;
+}
+
+.qty-no-3 {
+  margin-left: 59px;
+}
+
+.qty-no-4 {
+  margin-left: 54px;
+}
+
+.claimer {
+  color: rgb(160, 160, 160);
+  margin-top: -42px;
+  font-size: 16px !important;
+}
+
+button h2 {
+  margin: auto;
+  display: block;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(login-page-photo.jpg);
+  height: 100vh !important;
+  background-size: cover ;
+  box-sizing: border-box;
+  max-width: 1300px;
+  margin: 20px;
+}
